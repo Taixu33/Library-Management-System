@@ -2,7 +2,7 @@ create database library;
 
 use library;
 
-DROP TABLE IF EXISTS admin_code
+DROP TABLE IF EXISTS admin_code;
 
 CREATE TABLE admin_code(
    id int(11) not null auto_increment,
